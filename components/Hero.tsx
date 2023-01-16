@@ -11,7 +11,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className='text-3xl ml-20 mt-10 text-blue-600'>Take Your Brand Your In To</h1>
+          <h1 className='text-3xl ml-20 mt-10 text-blue-600'>Take Your Brands Eventful story In To</h1>
           <h2 className='text-4xl font-black ml-20 mt-5 text-blue-600'>Digital Space</h2>
         </div>
         <div>
