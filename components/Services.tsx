@@ -15,21 +15,21 @@ const Services = () => {
       <div>
         <h2 className='text-center text-5xl p-4 font-bold'>What We Do</h2>
       </div>
-      <div className='grid grid-col-1 sm:grid-cols-1 lg:grid-cols-2'>
+      <div className='grid grid-col-1 sm:grid-cols-1 md:ml-32 lg:grid-cols-2'>
         <div className='ml-20 mt-20'>
-           <h1 className='ml-20 text-2xl'>Web Development</h1>
+           <h1 className='ml-8 text-3xl lg:ml-16'>Web Development</h1>
            <Image className='p-4' src={dy} alt='dynamate' width={500} height={500}/>
         </div>
         <div className='ml-20 mt-20'>
-          <h1 className='ml-20 text-2xl'>Digital Marrketing</h1>
+          <h1 className='ml-0 text-3xl lg:ml-16'>Digital Marrketing</h1>
         <Image className='p-4' src={seo} alt='seo' width={500} height={500}/> 
         </div>
         <div className='ml-20 mt-20'>
-          <h1 className='ml-20 text-2xl'>Graphical Dynamite</h1>
+          <h1 className='text-3xl lg:ml-16'>Graphical Dynamite</h1>
         <Image className='p-4' src={dyn} alt='img1' width={500} height={500} />
         </div>
         <div className='ml-20 mt-20'>
-          <h1 className='ml-16 text-2xl'>Data Labelling & Classification</h1>
+          <h1 className='text-3xl lg:ml-16'>Data Labelling & Classification</h1>
         <Image className='p-4' src={mar} alt='mar' width={500} height={500}/>
         </div>
       </div>

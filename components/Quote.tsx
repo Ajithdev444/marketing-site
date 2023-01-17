@@ -7,7 +7,7 @@ const Quote = () => {
     <div className='grid grid-col-1 md:grid-cols-1 lg:grid-cols-2'>
         <div>
          <div className='p-4 ml-20'>
-            <h1 className='text-3xl'>Transform Your Business In To Digital Space</h1>
+            <h1 className='text-5xl'>Transform Your Business In To Digital Space</h1>
          </div>
          <div className='text-xl p-4 ml-20'>
             <h2 className='text-xl font-sans text-gray-500 leading-8'>
@@ -20,7 +20,7 @@ const Quote = () => {
             </h2>
          </div>
     </div>
-        <div className='grid p-4 mt-24' >
+        <div className='grid p-4 mt-24 md:ml-24' >
             <Image src={transform} alt='transform' width={600} height={300}/>
         </div>
     </div>

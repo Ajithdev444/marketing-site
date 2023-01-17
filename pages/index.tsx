@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
 import Quote from '../components/Quote'
+import Values from '../components/Values'
+import Form from '../components/Form'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +23,8 @@ export default function Home() {
           <Hero/>
           <Services/>
           <Quote/>
+          <Values/>
+          <Form/>
         </div>
       </main>
     </>
