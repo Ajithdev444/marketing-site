@@ -12,21 +12,21 @@ const Values = () => {
                 <h1 className='text-4xl text-center font-bold'>Our Core Values</h1>
             </div>
          <div className='grid grid-cols-1 lg:grid-cols-2'>
-             <div >
+             <div className='' >
                  <Image className='md:ml-40' src={dev} alt='dev'/>
              </div>
        
-          <div className='grid grid-cols-1 ml-16  '>
+          <div className='grid grid-cols-1 ml-16 '>
             <div>
                 <Image src={passion} alt='passion' width={30} height={30}/>
-                <h2 className='text-3xl mb-2'>Passion</h2>
+                <h2 className='text-3xl mb-2 font-semibold'>Passion</h2>
                 <p className='text-xl text-gray-500'>We love what we do, love digital marketing, 
                 and greet new challenges with excitement.</p>
                 <p className='text-xl text-gray-500'>Our clients feel the love every day.</p>
             </div>
             <div>
                 <Image src={excellence} alt='excellence' width={30} height={30} />
-                <h2 className='text-3xl mb-2'>Excellence</h2>
+                <h2 className='text-3xl mb-2 font-semibold'>Excellence</h2>
                 <p className='text-xl text-gray-500'>We deliver what we promise and go above and
                      beyond to add unanticipated value to our clients.
                 </p>
@@ -34,7 +34,7 @@ const Values = () => {
             </div>
             <div>
                 <Image src={service} alt='service' width={30} height={30}/>
-                <h2 className='text-3xl mb-2'>Personalized Services</h2>
+                <h2 className='text-3xl mb-2 font-semibold'>Personalized Services</h2>
                 <p className='text-xl text-gray-500'>Dont be surprised if you feel like you are our only client.<br/>
                      We ask a lot of questions to get to know your company so
                       we can anticipate your needs and exceed your goals.

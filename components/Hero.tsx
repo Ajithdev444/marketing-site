@@ -1,13 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
 import marketingImage from '../public/marketing.jpg'
+import { motion } from 'framer-motion'
+import { M_PLUS_1 } from '@next/font/google'
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
+    <motion.div animate={{opacity:1}} initial={{opacity:0}} className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
       <div className='text-sky-300'>
         <div className='ml-20 mt-36'>
-        <h2 className='text-4xl font-normal text-black leading-snug'>ROI - FOCUSED DIGITAL MARKETING COMPANY IN KERALA</h2>
+        <h2 className='text-4xl font-bold text-black leading-snug'>ROI - FOCUSED DIGITAL MARKETING COMPANY IN KERALA</ h2>
         </div>
 
         <div>
@@ -26,7 +28,7 @@ const Hero = () => {
       <div className='justify-center items-center grid'>
         <Image src={marketingImage} alt="marketing" placeholder='blur' width={700} height={700} />
       </div>
-    </div>
+    </motion.div>
   )
 }
 

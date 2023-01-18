@@ -33,22 +33,22 @@ const Navbar = () => {
             </Link>
             <ul style={{color: `${textColor}`}} className='sm:flex gap-10 hidden '>
                 <li className='p-4'>
-                    <Link href='/digitalmarketing'>Digital Marketing</Link>
+                    <Link href='/digital-marketing'>Digital Marketing</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/webdevelopment'>Web Development</Link>
+                    <Link href='/web-development'>Web Development</Link>
                 </li>
                 <li className='p-4'>
                     <Link href='/branding'>Branding</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='itsolutions'>IT Solutions</Link>
+                    <Link href='/itsolutions'>IT Solutions</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='company'>Company</Link>
+                    <Link href='/company'>Company</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='blog'>Blog</Link>
+                    <Link href='/blog'>Blog</Link>
                 </li>
             </ul>
 
@@ -68,10 +68,10 @@ const Navbar = () => {
             'absolute top-6 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'}>
                 <ul className=''>
                     <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
-                        <Link href='/digitalmarketing'>Digital Marketing</Link>
+                        <Link href='digital-marketing'>Digital Marketing</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
-                        <Link href='/webdevelopment'>Web Development</Link>
+                        <Link href='/web-development'>Web Development</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
                         <Link href='/branding'>Branding</Link>
