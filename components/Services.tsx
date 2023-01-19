@@ -16,20 +16,20 @@ const Services = () => {
       <div>
         <h2 className='text-center text-5xl p-4 font-semibold'>What We Do</h2>
       </div>
-      <div className='grid grid-col-1 lg:grid-cols-2'>
-        <div className='ml-20 mt-20 md:ml-40'>
+      <div className='grid grid-col-1 lg:grid-cols-2 md:grid-cols-2 lg:ml-24'>
+        <div className='ml-12 mt-20 md:ml-16'>
            <h1 className='text-3xl font-semibold'>Web Development</h1>
            <Image className='' src={dy} alt='dynamate' width={300} height={300}/>
         </div>
-        <div className='ml-20 mt-20 md:ml-40'>
+        <div className='ml-12 mt-20 md:ml-8'>
           <h1 className='text-3xl font-semibold'>Digital Marrketing</h1>
         <Image className='' src={seo} alt='seo' width={300} height={300}/> 
         </div>
-        <div className='ml-20 mt-20 md:ml-40'>
+        <div className='ml-12 mt-20 md:ml-16'>
           <h1 className='text-3xl font-semibold'>Graphical Dynamite</h1>
         <Image className='' src={dyn} alt='img1' width={300} height={300} />
         </div>
-        <div className='ml-20 mt-20 md:ml-40'>
+        <div className='ml-12 mt-20 md:ml-8'>
           <h1 className='text-3xl font-semibold'>Data Labelling & Classification</h1>
         <Image className='' src={mar} alt='mar' width={300} height={300}/>
         </div>

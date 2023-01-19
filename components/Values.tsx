@@ -13,10 +13,10 @@ const Values = () => {
             </div>
          <div className='grid grid-cols-1 lg:grid-cols-2'>
              <div className='' >
-                 <Image className='md:ml-40' src={dev} alt='dev'/>
+                 <Image className='md:ml-40 lg:ml-10' src={dev} alt='dev'/>
              </div>
        
-          <div className='grid grid-cols-1 ml-16 '>
+          <div className='grid grid-cols-1 ml-12 lg:ml-4 '>
             <div>
                 <Image src={passion} alt='passion' width={30} height={30}/>
                 <h2 className='text-3xl mb-2 font-semibold'>Passion</h2>

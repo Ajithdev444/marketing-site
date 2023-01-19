@@ -32,22 +32,44 @@ const Navbar = () => {
                 <h2 className='text-xl text-black'>The Business Hub</h2>
             </Link>
             <ul style={{color: `${textColor}`}} className='sm:flex gap-10 hidden '>
-                <li className='p-4'>
+                <li className='relative p-4 hover:bg-blue-50 rounded-md'  x-data ='{setNav:false}'>
                     <Link href='/digital-marketing'>Digital Marketing</Link>
+                {/* <div className='lg:absolute bg-white right-0 rounded-md p-2'>
+                    <ul className='space-y-2 lg:w-24' >
+                        <li className='relative'>
+                            <Link className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black' href='/'>SEO</Link>
+                        </li>
+                    
+                    
+                        <li>
+                            <Link  className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black'  href='/'>SMM</Link>
+                        </li>
+                    
+                    
+                        <li>
+                            <Link  className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black' href='/'>SRM</Link>
+                        </li>
+                    
+                    
+                        <li>
+                            <Link  className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black' href='/'>STM</Link>
+                        </li>
+                    </ul>
+                </div> */}
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:bg-blue-50 rounded-md'>
                     <Link href='/web-development'>Web Development</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:bg-blue-50 rounded-md'>
                     <Link href='/branding'>Branding</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:bg-blue-50 rounded-md'>
                     <Link href='/itsolutions'>IT Solutions</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:bg-blue-50 rounded-md'>
                     <Link href='/company'>Company</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:bg-blue-50 rounded-md'>
                     <Link href='/blog'>Blog</Link>
                 </li>
             </ul>
