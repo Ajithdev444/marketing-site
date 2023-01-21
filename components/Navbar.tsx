@@ -94,27 +94,33 @@ const Navbar = () => {
 
             {/* mobilemenu */}
 
-            <div className={nav ? 'absolute left-0 top-6 right-0 bottom-0 w-full justify-center items-center h-screen text-black bg-white cursor-pointer text-center ease-in duration-300' : 
-            'absolute top-6 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'}>
+            <div className={nav ? 'absolute left-0 top-0 right-0 bottom-0 w-full flex justify-center items-center h-screen text-black bg-white cursor-pointer text-center ease-in duration-300' : 
+            'absolute left-[-100%] top-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'}>
                 <ul className=''>
-                    <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
+                    <motion.li  whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
+                     className='p-4 text-3xl'>
                         <Link href='digital-marketing'>Digital Marketing</Link>
-                    </li>
-                    <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
+                    </motion.li>
+                    <motion.li whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
+                     onClick={handleNav} className='p-4 text-3xl'>
                         <Link href='/web-development'>Web Development</Link>
-                    </li>
-                    <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
+                    </motion.li>
+                    <motion.li whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
+                     onClick={handleNav} className='p-4 text-3xl '>
                         <Link href='/branding'>Branding</Link>
-                    </li>
-                    <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
+                    </motion.li>
+                    <motion.li whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
+                     onClick={handleNav} className='p-4 text-3xl'>
                         <Link href='/itsolutions'>IT Solutions</Link>
-                    </li>
-                    <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
+                    </motion.li>
+                    <motion.li whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
+                    onClick={handleNav} className='p-4 text-3xl'>
                         <Link href='/company'>Company</Link>
-                    </li>
-                    <li onClick={handleNav} className='p-4 text-3xl hover:text-gray-500'>
+                    </motion.li>
+                    <motion.li whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
+                    onClick={handleNav} className='p-4 text-3xl'>
                         <Link href='/blog'>Blog</Link>
-                    </li>
+                    </motion.li>
                 </ul>
             </div>
         </div>
