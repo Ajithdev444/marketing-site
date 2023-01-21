@@ -2,11 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import marketingImage from '../public/marketing.jpg'
 import { motion } from 'framer-motion'
-import { M_PLUS_1 } from '@next/font/google'
+
 
 const Hero = () => {
   return (
-    <motion.div animate={{opacity:1}} initial={{opacity:0}} className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2'>
+    <motion.div animate={{x:0}} initial={{x:'100vw'}} transition={{ type:'spring', delay:0.3}} className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2'>
       <div className='text-sky-300'>
         <div className='ml-12 mt-36'>
         <h2 className='text-4xl font-bold text-black leading-snug'>ROI - FOCUSED DIGITAL MARKETING COMPANY IN KERALA</ h2>
@@ -22,7 +22,8 @@ const Hero = () => {
              tireless commitment.</h3>
         </div>
         <div className='text-xl mt-4 ml-10 '>
-          <button className='text-blue-600 rounded-full px-6 py-2 bg-gray-400 font-bold' >Contact US</button>
+          <motion.button whileHover={{scale:1.1, textShadow: '0px 0px 8px rgb(255, 255, 255)', boxShadow:'0px 0px 8px rgb(255, 255, 255)',}} 
+          className='text-white rounded-full px-8 py-2 bg-blue-500 font-bold' >Contact Us</motion.button>
         </div>
       </div>
       <div className='justify-center items-center grid'>

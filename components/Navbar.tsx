@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 import React,{useState, useEffect} from 'react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
@@ -32,7 +33,9 @@ const Navbar = () => {
                 <h2 className='text-xl text-black'>The Business Hub</h2>
             </Link>
             <ul style={{color: `${textColor}`}} className='sm:flex gap-10 hidden '>
-                <li className='relative p-4 hover:bg-blue-50 rounded-md'  x-data ='{setNav:false}'>
+                <motion.li whileHover={{ scale:1.2, color: 'blue'}} transition={{type: 'spring', stiffness:300}}
+                 className='relative p-4'
+                   x-data ='{setNav:false}'>
                     <Link href='/digital-marketing'>Digital Marketing</Link>
                 {/* <div className='lg:absolute bg-white right-0 rounded-md p-2'>
                     <ul className='space-y-2 lg:w-24' >
@@ -56,22 +59,27 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div> */}
-                </li>
-                <li className='p-4 hover:bg-blue-50 rounded-md'>
+                </motion.li>
+                <motion.li whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
+                 className='p-4'>
                     <Link href='/web-development'>Web Development</Link>
-                </li>
-                <li className='p-4 hover:bg-blue-50 rounded-md'>
+                </motion.li>
+                <motion.li whileHover={{ scale:1.2, color: 'blue'}} transition={{type: 'spring', stiffness:300}}
+                 className='p-4'>
                     <Link href='/branding'>Branding</Link>
-                </li>
-                <li className='p-4 hover:bg-blue-50 rounded-md'>
+                </motion.li>
+                <motion.li whileHover={{ scale:1.2, color: 'blue'}} transition={{type: 'spring', stiffness:300}}
+                 className='p-4'>
                     <Link href='/itsolutions'>IT Solutions</Link>
-                </li>
-                <li className='p-4 hover:bg-blue-50 rounded-md'>
+                </motion.li>
+                <motion.li whileHover={{ scale:1.2, color: 'blue'}} transition={{type: 'spring', stiffness:300}}
+                 className='p-4 '>
                     <Link href='/company'>Company</Link>
-                </li>
-                <li className='p-4 hover:bg-blue-50 rounded-md'>
+                </motion.li>
+                <motion.li whileHover={{ scale:1.2, color: 'blue'}} transition={{type: 'spring', stiffness:300}}
+                 className='p-4 '>
                     <Link href='/blog'>Blog</Link>
-                </li>
+                </motion.li>
             </ul>
 
             {/* mobileButton */}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import form from '../public/form.jpg'
+import { motion } from 'framer-motion'
 
 
 const Form = () => {
@@ -16,7 +17,8 @@ const Form = () => {
                 <input type='text' placeholder='Requirements'/>
             </div>
             <div className='ml-16 mt-10 lg:ml-0'>
-                    <button className='py-4 px-16 text-white rounded-full bg-blue-500 sm:mb-10 '>Send Me</button>
+                    <motion.button whileHover={{scale:1.1, textShadow: '0px 0px 8px rgb(255, 255, 255)', boxShadow:'0px 0px 8px rgb(255, 255, 255)',}}
+                     className='py-4 px-16 text-white rounded-full bg-blue-500 sm:mb-10 '>Send Me</motion.button>
                 </div>
         </div>
         <div className=''>
