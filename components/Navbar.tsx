@@ -32,7 +32,7 @@ const Navbar = () => {
                 <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>Dev<span className='text-blue-600'>Arc</span></h1>
                 <h2 className='text-xl text-black'>The Business Hub</h2>
             </Link>
-            <ul style={{color: `${textColor}`}} className='sm:flex gap-10 hidden '>
+            <ul style={{color: `${textColor}`}} className='sm:flex gap-10 hidden 2xl:text-xl'>
                 <motion.li whileHover={{ scale:1.2, color: 'blue'}} transition={{type: 'spring', stiffness:300}}
                  className='relative p-4'
                    x-data ='{setNav:false}'>

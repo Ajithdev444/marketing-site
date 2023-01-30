@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <motion.div animate={{x:0}} initial={{x:'100vw'}} transition={{ type:'spring', delay:0.3}} className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2'>
-      <div className='text-sky-300'>
+      <div className='text-sky-300 2xl:p-20'>
         <div className='ml-12 mt-36'>
         <h2 className='text-4xl font-bold text-black leading-snug'>ROI - FOCUSED DIGITAL MARKETING COMPANY IN KERALA</ h2>
         </div>
@@ -17,13 +17,13 @@ const Hero = () => {
           <h2 className='text-4xl font-black ml-12 mt-5 text-blue-600'>Digital Space</h2>
         </div>
         <div>
-          <h3 className='text-xl leading-10 mt-6 ml-12 text-gray-500'>The epitome of dedication and perseverance, our team<br/>
-             focuses on the exponential growth of the clients through<br/>
+          <h3 className='text-xl leading-10 mt-6 ml-12 text-gray-500 2xl:text-2xl 2xl:leading-8'>The epitome of dedication and perseverance, our team
+             focuses on the exponential growth of the clients through
              tireless commitment.</h3>
         </div>
         <div className='text-xl mt-4 ml-10 '>
           <motion.button whileHover={{scale:1.1, textShadow: '0px 0px 8px rgb(255, 255, 255)', boxShadow:'0px 0px 8px rgb(255, 255, 255)',}} 
-          className='text-white rounded-full px-8 py-2 bg-blue-500 font-bold' >Contact Us</motion.button>
+          className='text-white rounded-full px-8 py-2 bg-blue-500 font-bold 2xl:mt-8 2xl:px-12 2xl:py-4' >Contact Us</motion.button>
         </div>
       </div>
       <div className='justify-center items-center grid'>
