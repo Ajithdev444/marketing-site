@@ -11,18 +11,18 @@ const Services = () => {
   return (
     <div>
       <motion.div>
-        <h1 className='text-center text-xl p-2'>Our Core Services</h1>
+        <h1 className='ml-10 text-xl p-2'>Our Core Services</h1>
       </motion.div>
       <div>
-        <h2 className='text-center text-5xl p-4 font-semibold'>What We Do</h2>
+        <h2 className='ml-8 text-5xl p-4 font-semibold'>What We Do</h2>
       </div>
       <div className='grid grid-col-1 lg:grid-cols-2 md:grid-cols-2 lg:ml-24 2xl:ml-40'>
-        <div className='ml-12 mt-20 md:ml-16'>
+        <div className='ml-12 mt-10 md:ml-16'>
            <h1 className='text-3xl font-semibold 2xl:text-5xl'>Web Development</h1>
            <Image className='2xl:' src={dy} alt='dynamate' width={300} height={300}/>
         </div>
         <div className='ml-12 mt-20 md:ml-8'>
-          <h1 className='text-3xl font-semibold 2xl:text-5xl'>Digital Marrketing</h1>
+          <h1 className='text-3xl font-semibold 2xl:text-5xl'>Digital Marketing</h1>
         <Image className='' src={seo} alt='seo' width={300} height={300}/> 
         </div>
         <div className='ml-12 mt-20 md:ml-16'>

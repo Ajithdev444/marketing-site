@@ -29,36 +29,13 @@ const Navbar = () => {
     <div style={{backgroundColor: 'white'}} className='fixed text-white left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4  '>
             <Link href='/'>
-                <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>Dev<span className='text-blue-600'>Arc</span></h1>
-                <h2 className='text-xl text-black'>The Business Hub</h2>
+                <h1 style={{color: `${textColor}`}} className='font-bold text-4xl ml-8 lg:ml-6'>Dev<span className='text-blue-600'>Arc</span></h1>
+                <h2 className='text-xl text-black ml-8 lg:ml-6'>The Business Hub</h2>
             </Link>
             <ul style={{color: `${textColor}`}} className='sm:flex gap-10 hidden 2xl:text-xl'>
                 <motion.li whileHover={{ scale:1.2, color: 'blue'}} transition={{type: 'spring', stiffness:300}}
-                 className='relative p-4'
-                   x-data ='{setNav:false}'>
+                 className='relative p-4'>
                     <Link href='/digital-marketing'>Digital Marketing</Link>
-                {/* <div className='lg:absolute bg-white right-0 rounded-md p-2'>
-                    <ul className='space-y-2 lg:w-24' >
-                        <li className='relative'>
-                            <Link className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black' href='/'>SEO</Link>
-                        </li>
-                    
-                    
-                        <li>
-                            <Link  className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black'  href='/'>SMM</Link>
-                        </li>
-                    
-                    
-                        <li>
-                            <Link  className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black' href='/'>SRM</Link>
-                        </li>
-                    
-                    
-                        <li>
-                            <Link  className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black' href='/'>STM</Link>
-                        </li>
-                    </ul>
-                </div> */}
                 </motion.li>
                 <motion.li whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
                  className='p-4'>
@@ -98,8 +75,8 @@ const Navbar = () => {
             'absolute left-[-100%] top-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300'}>
                 <ul className=''>
                     <motion.li  whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
-                     className='p-4 text-3xl'>
-                        <Link href='digital-marketing'>Digital Marketing</Link>
+                     onClick={handleNav} className='p-4 text-3xl'>
+                     <Link href='/digital-marketing'>Digital Marketing</Link>
                     </motion.li>
                     <motion.li whileHover={{ scale:1.2, color:'blue'}} transition={{type: 'spring', stiffness:300}}
                      onClick={handleNav} className='p-4 text-3xl'>
