@@ -60,7 +60,7 @@ function Dm () {
           <Image src={marketing2} alt='marketing2' className='w-auto h-auto p-12'/>
           <h2 className="text-violet-800 text-2xl font-semibold pl-12">CONVERSION RATE OPTIMIZATION</h2>
           <p className="p-8 leading-8 text-gray-600">Turn your visitors into customers with our team of experts.
-             We'll analyze your website and create a conversion-rate strategy.</p>
+             We will analyze your website and create a conversion-rate strategy.</p>
 
           </div>
           <div className="w-80 h-200 md:w-60 lg:w-80 bg-white rounded-3xl mt-8">
