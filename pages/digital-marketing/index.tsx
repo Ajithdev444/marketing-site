@@ -82,7 +82,7 @@ function Dm () {
               their organic search score drastically in order to compete for 
               the highest rankings — even when it comes to highly competitive keywords.
             </p>
-            <button className="px-8 py-4 bg-orange-400 rounded-full mt-4 text-white mb-4">
+            <button className="px-8 py-4 bg-orange-300 rounded-full mt-4 text-white mb-4">
               Learn more about us</button>
           </div>
         </div>
