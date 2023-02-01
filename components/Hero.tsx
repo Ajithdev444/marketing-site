@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <motion.div animate={{x:0}} initial={{x:'100vw'}} transition={{ type:'spring', delay:0.3}}
      className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2'>
-      <div className='text-sky-300 2xl:p-20'>
+      <div className='text-sky-300'>
         <div className='ml-12 mt-36'>
         <h2 className='text-4xl font-bold text-black leading-snug '>
           ROI - FOCUSED DIGITAL MARKETING COMPANY IN KERALA</ h2>
