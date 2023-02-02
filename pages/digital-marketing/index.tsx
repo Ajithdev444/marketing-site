@@ -28,7 +28,7 @@ function Dm () {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head> 
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 max-w-6xl m-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <div className="ml-12 mr-4 mt-32 lg:ml-12">
                 <div className="mb-8">
@@ -54,22 +54,22 @@ function Dm () {
           <Image className="ml-12 mt-12" src={marketingbadges} alt='marketing-badges' width={300} height={50}/>
         </div>
 
-        <div className="grid grid-cols-1 ml-9 md:grid-cols-3 lg:grid-cols-3 mt-20 lg:ml-12 md:mr-2">
-          <div className="w-80 h-200 md:w-60 lg:w-80 2xl:w-96 bg-white rounded-3xl mt-8 ">
+        <div className="grid grid-cols-1 ml-9 md:grid-cols-3 lg:grid-cols-3 mt-20 md:mr-2">
+          <div className="w-80 h-200 md:w-60 lg:w-80 bg-white rounded-3xl mt-8 ">
             <Image src={marketing1} alt='marketing1'  className='w-auto h-auto p-12' />
             <h2 className="text-violet-800 text-2xl font-semibold pl-12">ONLINE<br/> REPUTATION <br/> MANAGEMENT</h2>
             <p className="p-8 leading-8 text-gray-600">Analyzing negative materials about your brand and addressing
                them with sentiment analysis and press release distribution.</p>
           </div>
 
-          <div className="w-80 h-200 md:w-60 lg:w-80 2xl:w-96 bg-white rounded-3xl mt-8">
+          <div className="w-80 h-200 md:w-60 lg:w-80 bg-white rounded-3xl mt-8">
           <Image src={marketing2} alt='marketing2' className='w-auto h-auto p-12'/>
           <h2 className="text-violet-800 text-2xl font-semibold pl-12">CONVERSION RATE OPTIMIZATION</h2>
           <p className="p-8 leading-8 text-gray-600">Turn your visitors into customers with our team of experts.
              We will analyze your website and create a conversion-rate strategy.</p>
 
           </div>
-          <div className="w-80 h-200 md:w-60 lg:w-80 2xl:w-96 bg-white rounded-3xl mt-8">
+          <div className="w-80 h-200 md:w-60 lg:w-80 bg-white rounded-3xl mt-8">
           <Image src={marketing3} alt='marketing3' className='w-auto h-auto p-12'/>
           <h2 className="text-violet-800 text-2xl font-semibold pl-12">ONLINE REPUTATION MANAGEMENT</h2>
           <p className="p-8 leading-8 text-gray-600">Analyzing negative materials about your brand and addressing
@@ -81,7 +81,7 @@ function Dm () {
           <div className="ml-6 md:mt-16">
             <Image src={marketing4} alt='marketing4' width={500} height={500}/>
           </div>
-          <div className="inline ml-12 mt-6 mr-4 lg:ml-0 lg:mr-10 2xl:mt-28 2xl:mr-28 2xl:-ml-40">
+          <div className="inline ml-12 mt-6 mr-4 lg:ml-0 lg:mr-10 2xl:mt-28">
             <h2 className="text-violet-600 text-xl tracking-widest">GROW TRAFFIC & INCREASE REVENUE</h2>
             <h1 className="mt-6 text-4xl font-bold">Appear On the Front Page of Google!</h1>
             <p className="mt-6 text-gray-600 leading-8 mr-4">We offer professional SEO services that help websites increase 

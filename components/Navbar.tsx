@@ -26,14 +26,14 @@ const Navbar = () => {
         window.addEventListener('scroll', changeColor)
      },[])
   return (
-    <div style={{backgroundColor: 'white'}} className='fixed text-white left-0 top-0 z-10 ease-in duration-300'>
-        <div className='max-w-screen-2xl m-auto flex justify-between items-center p-4 '>
+    <div style={{backgroundColor: 'white'}} className='fixed w-full m-auto text-white left-0 top-0 z-10 ease-in duration-300'>
+        <div className='max-w-screen-6xl m-auto flex justify-between items-center p-4'>
             <Link href='/'>
                 <h1 style={{color: `${textColor}`}} className='font-bold text-4xl ml-8 lg:ml-6'>
                     Dev<span className='text-blue-600'>Arc</span></h1>
                 <h2 className='text-xl text-black ml-8 lg:ml-6'>The Business Hub</h2>
             </Link>
-            <ul style={{color: `${textColor}`}} className='sm:flex gap-10 hidden 2xl:text-xl'>
+            <ul style={{color: `${textColor}`}} className='sm:flex gap-10 hidden md:flex 2xl:text-xl '>
                 <motion.li whileHover={{ scale:1.2, color: 'blue'}} transition={{type: 'spring', stiffness:300}}
                  className='relative p-4'>
                     <Link href='/digital-marketing'>Digital Marketing</Link>

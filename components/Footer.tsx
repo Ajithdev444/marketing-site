@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='grid grid-cols-1 bg-gray-100 md:grid-cols-3 2xl:text-2xl 2xl:leading-10'>
+    <div className='grid grid-cols-1 bg-gray-100 md:grid-cols-3 2xl:text-xl 2xl:leading-10 max-w-6xl m-auto'>
       <div className='ml-12 mt-16 leading-8'>
       <div>
         <h1 className='text-3xl font-semibold'>Digital Marketing <span className='text-blue-500'>Services</span></h1>

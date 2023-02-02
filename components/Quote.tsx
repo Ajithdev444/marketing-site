@@ -4,13 +4,13 @@ import transform from '../public/transform.png'
 
 const Quote = () => {
   return (
-    <div className='grid grid-col-1 md:grid-cols-1 lg:grid-cols-2'>
+    <div className='grid grid-col-1 md:grid-cols-1 lg:grid-cols-2 max-w-6xl m-auto'>
         <div>
          <div className='p-4 ml-8'>
             <h1 className='text-5xl font-semibold 2xl:text-5xl'>Transform Your Business In To Digital Space</h1>
          </div>
          <div className='text-xl p-4 ml-8 mr-2'>
-            <h2 className='text-xl font-sans text-gray-500 leading-8 2xl:text-3xl 2xl:leading-10'>
+            <h2 className='text-xl font-sans text-gray-500 leading-8 2xl:text-xl 2xl:leading-10'>
             Transform your business through thoughtfully created,adequately
              embellished, social media marketing campaigns with SpiderWorks,
               the trusted digital marketing company in Kerala. We offer 

@@ -9,12 +9,12 @@ import { motion } from 'framer-motion'
 
 const Services = () => {
   return (
-    <div>
+    <div className='max-w-6xl m-auto'>
       <motion.div>
-        <h1 className='ml-10 text-xl p-2 2xl:text-center'>Our Core Services</h1>
+        <h1 className='ml-10 text-4xl font-bold p-2 2xl:text-center'>Our Core Services</h1>
       </motion.div>
       <div>
-        <h2 className='ml-8 text-5xl p-4 font-semibold 2xl:text-center 2xl:ml-16'>What We Do</h2>
+        <h2 className='ml-8 text-4xl p-4 font-bold 2xl:text-center 2xl:ml-16'>What We Do</h2>
       </div>
       <div className='grid grid-col-1 lg:grid-cols-2 md:grid-cols-2 lg:ml-24 2xl:ml-0 2xl:grid-cols-4'>
         <div className='ml-12 mt-10 md:ml-16'>
