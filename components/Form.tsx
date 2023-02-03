@@ -17,7 +17,7 @@ const sentForm = async (event: FormEvent<HTMLFormElement>) => {
 
   console.log(name.value, company.value, email.value, phonenumber.value, requirements.value)
 
-  await fetch ('/', {
+  await fetch ('/api/hello', {
     headers : {
       'Content-Type': 'application/json'
     },
