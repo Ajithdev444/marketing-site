@@ -16,7 +16,7 @@ const Values = () => {
                  <Image className='md:ml-40 lg:ml-10' src={dev} alt='dev'/>
              </div>
        
-          <div className='grid grid-cols-1 ml-12 mr-2 lg:ml-4 '>
+          <div className='grid grid-cols-1 ml-12 mr-2 lg:ml-4'>
             <div>
                 <Image className='inline' src={passion} alt='passion' width={30} height={30}/>
                 <span className='text-3xl ml-2 mb-2 font-semibold'>Passion</span>
